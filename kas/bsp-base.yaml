@@ -37,7 +37,7 @@ local_conf_header:
   rm_work: |
     INHERIT += "rm_work"
   panta-base: |
-    TMPDIR = "${TOPDIR}/tmp-${DISTRO_CODENAME}"
+    TMPDIR = "${TOPDIR}/${DISTRO_CODENAME}"
   panta-busybox: |
     PREFERRED_VERSION_busybox = "1.36~pv.%"
   panta-mbedtls: |
